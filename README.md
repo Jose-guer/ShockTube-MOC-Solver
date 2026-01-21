@@ -6,14 +6,15 @@ No specific version of MATLAB is required to run the code.
 
 ## Description of Code
 - ShockTube_MOC_Solve.m - This is the actual MOC solver which takes in the shocktube geometry and initial conditions.
-- ShockTube_MOC_Plot.m - This is the wrapper function used to run ShockTube_MOC_Solve.m and print post-incident and post-refelcted states as well as test time duration.
+- ShockTube_MOC_Plot.m - This is the wrapper function used to run ShockTube_MOC_Solve.m. The code plots an XT-diagram and prints the post-incident and post-refelcted shock states as well as test time duration.
 
 ## Mixtures
--Air
--Argon
--Helium
--Hydrogen
--Nitrogen
--Helium-Argon mixtures
+- Air
+- Argon
+- Helium
+- Hydrogen
+- Nitrogen
+- Helium-Argon mixtures
 
 For mixtures, the variable "x" which contains the mole fraction of each constituent needs to be updated in the mixture thermodat file.
+
