@@ -16,4 +16,4 @@ No specific version of MATLAB is required to run the code.
 -Nitrogen
 -Helium-Argon mixtures
 
-Note that for mixtures, the variable "x" which is the mole fraction of each consituent needs to be updated in the mixture thermodat file.
+For mixtures, the variable "x" which contains the mole fraction of each constituent needs to be updated in the mixture thermodat file.
